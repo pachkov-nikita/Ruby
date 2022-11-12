@@ -1,7 +1,7 @@
 def do_chose(chose)
-  if chose == 1
+  if chose === 1
     chose_to_string = "Камень"
-  elsif chose == 2
+  elsif chose === 2
     chose_to_string = "Ножницы"
   else
     chose_to_string = "Бумага"
